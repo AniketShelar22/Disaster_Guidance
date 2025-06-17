@@ -1,0 +1,95 @@
+/* Wrapper container */
+.disaster-details {
+  background-color: #111827;
+  min-height: 100vh;
+  padding: 3rem;
+  max-width: 8000px;
+  margin: 0 auto;
+  transition: background-color 0.3s ease;
+}
+
+.dark .disaster-details {
+  background-color: #111827;
+}
+
+/* Header for disaster name */
+.disater-header {
+  font-size: 2rem;
+  font-weight: bold;
+  text-align: center;
+  background-color: #e0f2fe;
+  padding: 1rem 1.5rem;
+  border-radius: 1rem;
+  color: #0c4a6e;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.06);
+  margin-bottom: 2rem;
+}
+
+.dark .disater-header {
+  background-color: #1e293b;
+  color: #7dd3fc;
+}
+
+/* Phase section */
+.disaster-details h3 {
+  color: #1f2937;
+  font-size: 1.25rem;
+  margin-bottom: 0.5rem;
+}
+
+.dark .disaster-details h3 {
+  color: #e5e7eb;
+    font-size: 3rem;
+   
+}
+
+/* List items */
+.disaster-details ul {
+  background-color: #ffffff;
+  padding: 1rem 1.25rem;
+  border-radius: 0.5rem;
+  font-size: 1.5rem;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+  margin-left: 2rem;
+}
+
+.dark .disaster-details ul {
+  background-color: #1f2937;
+}
+
+.disaster-details li {
+  color: #374151;
+  padding-left: 0.5rem;
+}
+
+.dark .disaster-details li {
+  color: #d1d5db;
+}
+
+/* Checklist button */
+.disaster-details .text-center a {
+  font-weight: 500;
+  border-radius: 0.75rem;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.disaster-details .text-center a:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 14px rgba(59, 130, 246, 0.5);
+}
+
+
+.disaster-link {
+  display: inline-block;
+  margin-top: 2rem;
+}
+
+.disaster-link-button {
+  color: white;
+  text-decoration: none;
+  font-size: 1rem;
+  font-weight: 500;
+  padding: 0.5rem 0.75rem;
+  border-radius: 8px;
+  transition: background-color 0.3s;
+}
