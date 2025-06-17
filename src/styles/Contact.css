@@ -1,0 +1,97 @@
+/* Contact.css */
+
+.contact-page {
+  background-color: #ffffff;
+  color: #1a1a1a;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+/* Hero Section */
+.contact-hero {
+  background-color: #1a1a1a;
+  color: white;
+  text-align: center;
+  padding: 4rem 1.5rem;
+}
+
+.contact-hero h1 {
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+}
+
+.contact-hero p {
+  font-size: 1.125rem;
+  max-width: 700px;
+  margin: 0 auto;
+  line-height: 1.6;
+}
+
+/* Contact Section */
+.contact-section {
+  padding: 4rem 1.5rem;
+  background-color: #fff;
+}
+
+.contact-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 3rem;
+}
+
+/* Form Section */
+.contact-form h2 {
+  font-size: 1.75rem;
+  font-weight: 700;
+  margin-bottom: 1.5rem;
+}
+
+.contact-form form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.contact-form input,
+.contact-form textarea {
+  padding: 0.75rem 1rem;
+  border: 1px solid #ccc;
+  border-radius: 0.5rem;
+  font-size: 1rem;
+  transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.contact-form input:focus,
+.contact-form textarea:focus {
+  border-color: #f7b500;
+  box-shadow: 0 0 0 3px rgba(247, 181, 0, 0.2);
+  outline: none;
+}
+
+.contact-form button {
+  background-color: #f7b500;
+  color: white;
+  padding: 0.75rem 1.5rem;
+  font-weight: 600;
+  border: none;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.contact-form button:hover {
+  background-color: #e69500;
+}
+
+/* Info Section */
+.contact-info h2 {
+  font-size: 1.75rem;
+  font-weight: 700;
+  margin-bottom: 1.5rem;
+}
+
+.contact-info p {
+  font-size: 1rem;
+  margin-bottom: 1rem;
+  color: #555;
+}
