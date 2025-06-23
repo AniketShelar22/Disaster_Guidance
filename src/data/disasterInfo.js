@@ -1,10 +1,9 @@
-// /src/data/disasterInfo.js
-
 const disasterInfo = [
   {
     id: "earthquake",
     name: "Earthquake",
     icon: "🌀",
+    description: "Occurs suddenly due to tectonic movements. Can cause shaking, structural damage, and panic.",
     tips: {
       before: ["Secure heavy items", "Prepare emergency kit"],
       during: ["Drop, Cover, and Hold on", "Stay away from windows"],
@@ -15,6 +14,7 @@ const disasterInfo = [
     id: "flood",
     name: "Flood",
     icon: "🌊",
+    description: "Happens after heavy rain or dam failure. Streets fill with water and power may be lost.",
     tips: {
       before: ["Know flood zones", "Prepare sandbags"],
       during: ["Evacuate if advised", "Avoid walking or driving through floodwaters"],
@@ -25,6 +25,7 @@ const disasterInfo = [
     id: "wildfire",
     name: "Wildfire",
     icon: "🔥",
+    description: "Triggered by dry weather and wind. Thick smoke and intense heat affect large areas.",
     tips: {
       before: ["Create defensible space", "Prepare go-bag"],
       during: ["Evacuate early", "Stay updated via radio"],
@@ -35,6 +36,7 @@ const disasterInfo = [
     id: "tornado",
     name: "Tornado",
     icon: "🌪",
+    description: "Forms quickly with strong rotating winds. Causes flying debris, destruction, and chaos.",
     tips: {
       before: ["Know shelter locations", "Emergency kit ready"],
       during: ["Go to basement or interior room", "Protect head"],
@@ -45,6 +47,7 @@ const disasterInfo = [
     id: "blizzard",
     name: "Blizzard",
     icon: "❄",
+    description: "Brings heavy snow, cold winds, and poor visibility. Roads and power lines may be affected.",
     tips: {
       before: ["Stock food and water", "Avoid travel plans"],
       during: ["Stay indoors", "Dress in layers"],
@@ -55,6 +58,7 @@ const disasterInfo = [
     id: "pandemic",
     name: "Pandemic",
     icon: "☣",
+    description: "Widespread disease affecting communities. Healthcare burden and social distancing follow.",
     tips: {
       before: ["Stay informed", "Stock essential supplies"],
       during: ["Wear masks", "Avoid crowds"],

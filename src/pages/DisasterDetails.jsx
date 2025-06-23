@@ -12,6 +12,7 @@ export default function DisasterDetails() {
   if (!disaster) return <p className="text-center p-10">Disaster not found.</p>;
 
   return (
+    <div className="disaster-container">
     <div className="disaster-details">
       <div className="disater-header">
         {disaster.icon} {disaster.name} Preparedness
@@ -39,6 +40,16 @@ export default function DisasterDetails() {
         </Link> */}
         <a href="/checklist" className="disater-link-button">Start Checklist</a>
       </div>
+       
+    </div>
+          {/* <div className="md:w-1/3 bg-gray-100 p-4 rounded-lg shadow-md text-gray-800">
+      <h3 className="text-xl font-bold mb-2">About the Disaster</h3>
+      <p className="text-sm leading-relaxed">{disaster.description}</p>
+    </div>
+     */}
+
+
+
     </div>
   );
 }

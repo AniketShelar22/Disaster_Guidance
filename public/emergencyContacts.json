@@ -1,0 +1,24 @@
+[
+  {
+    "state": "Maharashtra",
+    "helpline": "022-22027990",
+    "cities": [
+      { "city": "Mumbai", "number": "1916" },
+      { "city": "Pune", "number": "020-26127394" }
+    ]
+  },
+  {
+    "state": "Tamil Nadu",
+    "helpline": "1070",
+    "cities": [
+      { "city": "Chennai", "number": "044-25619206" }
+    ]
+  },
+  {
+    "state": "Delhi",
+    "helpline": "011-23438252",
+    "cities": [
+      { "city": "New Delhi", "number": "1095" }
+    ]
+  }
+]
